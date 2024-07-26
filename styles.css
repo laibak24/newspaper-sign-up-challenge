@@ -1,0 +1,123 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url('bottomlayer.webp');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.input-box.invalid {
+    border-color: red;
+}
+
+.layer2 {
+    background-color: #242742;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 80%;
+}
+
+.layer3 {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    max-width: 800px;
+    width: 60%;
+    height: auto; /* Adjust height */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60vh; /* Adjust height */
+}
+
+.text-area {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: 60vh; /* Adjust height */
+    border-radius: 10px;
+}
+
+.title {
+    font-weight: 700;
+    color: #36384e;
+    font-size: 24px;
+}
+
+.text {
+    margin-top: 5px;
+    color: #9294a0;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+ul {
+    color: #36384e;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    list-style-image: url('icon-list.svg');
+    list-style-position: inside;
+}
+
+label {
+    display:inline-flex;
+    color: #242742;
+    font-weight: 700;
+    font-size: 10px;
+}
+.input-box {
+    color: #9294a0;
+    border-radius: 2px;
+    height: 40px; 
+    border: 1px solid #9294a0; 
+    width: 100%; 
+    padding: 5px;
+    box-sizing: border-box; 
+    font-size: 14px; 
+    margin-bottom: 2px; 
+}
+.output{
+    border:0;
+    margin:0;
+    padding:0;
+    display: inline-flex;
+    color: red;
+    font-weight: 400;
+    font-size: 10px;
+    margin-left: 60%;
+}
+.subscribe {
+    background-color: #242742;
+    color: white;
+    font-size: 14px; 
+    font-weight: 400;
+    height: 40px; 
+    width: 100%; 
+    border: none; 
+    border-radius: 2px;
+    cursor: pointer; 
+    box-sizing: border-box; }
+
+.subscribe:hover {
+    background-image: url('backgroundimage.svg'); 
+}
